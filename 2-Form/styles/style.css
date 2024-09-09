@@ -1,0 +1,25 @@
+h1 {
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a {
+    color: #089FE0;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #089FE0;
+}
+
+input {
+    color: #999999;
+    background-color: #F5F5F5;
+}

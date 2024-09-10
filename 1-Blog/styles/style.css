@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    width: 1440px;
+    height: 1516px;
+}
+
+.main-img {
+    width: 896px;
+    height: 594px;
+}
+
+.user-img {
+    background: #4b5563;
+    width: 35px;
+    height: 35px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 158%;
+    color: #fff;
+}
+
+.post {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #fff;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+.date-p {
+    width: 180px;
+    height: 16px;
+}
+
+.other-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #fff;
+}
+
+.main-p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #fff;
+}
+
+footer, .fio {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #fff;
+}

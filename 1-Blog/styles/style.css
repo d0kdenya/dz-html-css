@@ -1,12 +1,67 @@
 body {
-    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    background: #121928;
     width: 1440px;
     height: 1516px;
 }
 
+header {
+    padding-top: 81px;
+    margin-bottom: 80px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 158%;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+footer, .fio {
+    font-size: 16px;
+    line-height: 175%;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    border-radius: 100px;
+    width: 224px;
+    height: 40px;
+    background: rgba(31, 41, 55, 0.6);
+}
+
+p {
+    color: #fff;
+}
+
+span {
+    width: 214px;
+    height: 53px;
+    margin-bottom: 28px;
+}
+
+.main-p {
+    font-size: 20px;
+    line-height: 160%;
+    color: #fff;
+}
+
 .main-img {
+    border-radius: 5px;
     width: 896px;
     height: 594px;
+    margin-bottom: 59px;
 }
 
 .user-img {
@@ -15,49 +70,21 @@ body {
     height: 35px;
 }
 
-h1 {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 158%;
-    color: #fff;
-}
-
 .post {
     font-weight: 400;
     font-size: 14px;
     line-height: 200%;
     color: #fff;
-}
-
-header a {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 18px;
-    color: #fff;
+    opacity: 0.6;
 }
 
 .date-p {
-    width: 180px;
     height: 16px;
+    padding-bottom: 14px;
+    opacity: 0.6;
 }
 
 .other-p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 187%;
-    color: #fff;
-}
-
-.main-p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 160%;
-    color: #fff;
-}
-
-footer, .fio {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 175%;
-    color: #fff;
 }

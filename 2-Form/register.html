@@ -8,12 +8,12 @@
   </head>
   <body>
     <main>
-      <div>
-        <h1>Регистрация</h1>
-        <h2>Уже есть аккаунт? <a href="#">Войти</a></h2>
-      </div>
-      <form action="#">
-        <div>
+      <div class="register-form">
+        <div class="header-container">
+          <h1>Регистрация</h1>
+          <h2>Уже есть аккаунт? <a href="#">Войти</a></h2>
+        </div>
+        <form action="#" class="form-container">
           <input
             type="text"
             name="username"
@@ -22,26 +22,25 @@
             maxlength="20"
             required
           />
-        </div>
-        <div>
-          <input
-            type="text"
-            name="firstName"
-            id="firstName"
-            placeholder="Имя"
-            maxlength="20"
-            required
-          />
-          <input
-            type="text"
-            name="lastName"
-            id="lastName"
-            placeholder="Фамилия"
-            maxlength="30"
-            required
-          />
-        </div>
-        <div>
+          <div class="name-block">
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder="Имя"
+              maxlength="20"
+              required
+            />
+            <div class="divider"></div>
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              placeholder="Фамилия"
+              maxlength="30"
+              required
+            />
+          </div>
           <input
             type="email"
             name="email"
@@ -50,16 +49,20 @@
             maxlength="40"
             required
           />
-        </div>
-
-        <button type="submit">Зарегистрироваться &#10233;</button>
-
-        <div>
-          <input type="checkbox" id="condition" name="condition" required />
-          Я прочитал и принимаю
-          <a href="#">Условия использования</a>
-        </div>
-      </form>
+          <button type="submit">Зарегистрироваться &#10233;</button>
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              class="condition"
+              id="condition"
+              name="condition"
+              required
+            />
+            Я прочитал и принимаю
+            <a href="#" class="">Условия использования</a>
+          </div>
+        </form>
+      </div>
     </main>
   </body>
 </html>

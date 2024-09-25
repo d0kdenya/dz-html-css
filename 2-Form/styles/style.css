@@ -70,6 +70,13 @@ input {
     padding: 9px 0 9px 11px;
 }
 
+input:valid {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+}
+
 .header-container {
     padding-bottom: 47px;
 }
@@ -94,8 +101,6 @@ input {
     display: flex;
     width: 394px;
     justify-content: space-between;
-    /* gap: 0px; */
-    position: relative;
 }
 
 .divider {

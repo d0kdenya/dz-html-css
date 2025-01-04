@@ -1,0 +1,36 @@
+:root {
+    --color-bg-light: #FFFFFF;
+    --color-bg-gray: #ADA6A6;
+    --color-bg-green: #1ABC9C;
+    --color-bg-yellow: #FFC736;
+    --color-bg-blue: #357EFE;
+    --color-bg-medium: #123B87;
+    --color-primary-text: #000000;
+    --color-text: #4E5D7C;
+
+    --box-shadow-light: 0 0 32px 0 rgba(78, 93, 124, 0.16);
+    --box-shadow-dark: 0 0 32px 0 rgba(78, 93, 124, 0.46);
+    
+    --layout-width: 1156px;
+
+    --border-8: 8px;
+    --border-47: 47px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background: var(--color-bg-light);
+    margin: 0;
+}

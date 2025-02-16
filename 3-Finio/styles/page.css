@@ -1,19 +1,67 @@
-/* Tariff */
-.tariff_wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    justify-items: center;
+/* Hero */
+.hero {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    min-height: 480px;
 }
 
-@media (max-width: 1200px) {
-    .tariff_wrapper {
-        grid-template-columns: repeat(2, 1fr);
+.hero__left {
+    display: flex;
+    min-width: 452px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.hero__left img {
+    margin-top: 40px;
+    max-width: 334px;
+    width: 100%;
+}
+
+.hero__title {
+    color: var(--color-text);
+    font-weight: 800;
+}
+
+/* Flex */
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+/* Position */
+.position-left {
+    margin-right: auto;
+}
+
+@media (max-width: 1280px) {
+    .hero {
+        padding-top: 32px;
     }
 }
 
-@media (max-width: 900px) {
-    .tariff_wrapper {
-        grid-template-columns: 1fr;
+@media (max-width: 480px) {
+    .hero__left {
+        min-width: auto;
+        gap: 32px;
+
+        > img {
+            max-width: 264px;
+            margin: 24px 0 32px;
+        }
+    }
+
+    .hero__title {
+        font-size: 32px;
+    }
+
+    .hero__image {
+        display: none;
     }
 }
